@@ -16,6 +16,7 @@ public class Util {
     static {
         try{
             connection = DriverManager.getConnection(URL, USER_NAME, PASSWORD);
+            connection.setCatalog("first_db");
         } catch (SQLException e) {
             e.printStackTrace();
             throw new RuntimeException();
