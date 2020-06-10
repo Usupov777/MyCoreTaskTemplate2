@@ -11,10 +11,7 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema">
-            <name qname="first_db" />
-            <name qname="mysql" />
-          </node>
+          <node kind="schema" qname="first_db" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
