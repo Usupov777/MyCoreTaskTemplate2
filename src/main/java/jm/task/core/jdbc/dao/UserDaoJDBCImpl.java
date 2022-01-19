@@ -76,7 +76,6 @@ public class UserDaoJDBCImpl implements UserDao {
                 user.setId(resultSet.getLong("id"));
                 users.add(user);
             }
-            connection.commit();
             connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
